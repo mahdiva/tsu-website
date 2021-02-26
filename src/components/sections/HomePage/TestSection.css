@@ -1,0 +1,21 @@
+.testSection__layout{
+    margin: 30px;
+    height: 500px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    align-content: center;
+}
+
+.testSection__header{
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.testSection__img{
+    width: 300px;
+}
+
+.testSection{
+    height: 700px;
+}

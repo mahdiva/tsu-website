@@ -1,0 +1,36 @@
+.homeHeader {
+    background: linear-gradient(to bottom, #282c34  5%, #07080A 100%); /*#282c34 */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .homeHeader__logo{
+    width: 55%;
+    min-width: 400px;
+  }
+  
+  .homeHeader__construction{
+    margin-top: 50px;
+    font-size: 1rem;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  .homeHeader__description{
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  .homeHeader__cta{
+    margin-top: 25px;
+    color: #8FDC63;
+  }
+  
+  @media(max-width: 450px){
+    .homeHeader__logo{
+      min-width: 310px;
+    }
+  }
