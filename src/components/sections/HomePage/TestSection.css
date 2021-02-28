@@ -1,6 +1,7 @@
 .testSection__layout{
-    margin: 30px;
+    margin: 30px 15%;
     height: 500px;
+    min-height: 100vh;
     display: grid;
     grid-template-columns: 1fr 1fr;
 
@@ -13,9 +14,52 @@
 }
 
 .testSection__img{
-    width: 300px;
+    max-width: 450px;
+    width: 85%;
+    justify-content: center;
+    align-content: center;
+    margin-top: 10%;
 }
 
-.testSection{
-    height: 700px;
+.testSection__part2{
+    min-height: 100vh;
+    background: linear-gradient(to bottom, #282c34, #07080A 90%); 
+    /*background: radial-gradient( #3D424F  5%, #07080A 100%);*/
+}
+.testSection__part3{
+    background: linear-gradient(to bottom, #07080A 10%, #282c34); 
+    /*background-color: #07080A;
+    /*background: radial-gradient( #3D424F  5%, #07080A 100%);
+    /*background: linear-gradient(to bottom, #07080A, #3D424F);*/
+}
+
+.testSection__imsdg{
+    align-content: center;
+    justify-content: center;
+}
+
+.testSection__margin{
+    position: relative;
+    margin: 200px 15%;
+    display: inline-block;
+}
+
+.testSection__part2grid{
+    display: grid;
+    height: 75%;
+    grid-template-columns: 1fr 1fr;
+    align-content: center;
+    justify-content: center;
+}
+
+.green{
+    color: #8FDC63;
+}
+
+.turquoise{
+    color: #5ED38D;
+}
+
+.white{
+    color: white;
 }
